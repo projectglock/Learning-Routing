@@ -1,0 +1,7 @@
+<Files "*.log">
+Deny from all
+</Files>
+
+RewriteEngine On
+RewriteRule  /*.xml a.php
+RewriteRule  /*.jpg b/c.php
